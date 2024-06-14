@@ -1,0 +1,13 @@
+prefix=/Users/sj/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/projects/fintech_research/tools/fin_research_env
+exec_prefix=/Users/sj/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/projects/fintech_research/tools/fin_research_env
+libdir=/Users/sj/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/projects/fintech_research/tools/fin_research_env/lib
+sharedlibdir=/Users/sj/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/projects/fintech_research/tools/fin_research_env/lib
+includedir=/Users/sj/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/projects/fintech_research/tools/fin_research_env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
